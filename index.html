@@ -1,0 +1,49 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search list</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="container">
+    <main>
+      <div class="title-div">
+        <h1>Product list</h1>
+      </div>
+      <div class="product-container">
+        <div class="produc-search">
+          <div class="product-label-input">
+            <div class="product-label">
+              <label for="">Product name: </label>
+              <label for="">Product max price:</label>
+              <label for="">Product category:</label>
+            </div>
+
+            <div class="product-input">
+              <input type="text" class="input-title" />
+              <div class="price-range-value">
+                <input type="range" class="input-price" min="1" max="150" /><p class="price-value"></p>
+              </div>
+              <select name="" id="input-category">
+                <option value="All" selected="selected">All</option>
+                <option value="Tshirt">Tshirt</option>
+                <option value="Trouthers">Trouthers</option>
+              </select>
+              
+            </div>
+          </div>
+
+          <button class="btn">search</button>
+        </div>
+        <div class="product-section">
+          <div class="produc-list"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+/** @format */
+
+@import url("./reset.css");
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+body {
+  background-color: #8f6ed7;
+}
+.title-div {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 50px;
+}
+.product-container {
+  margin-top: 60px;
+  display: flex;
+}
+.product-label-input {
+  width: 250px;
+    display: flex;
+
+  margin-bottom: 15px;
+}
+.input-category{
+  border-radius: 3px;
+  width: 123px;
+  font-size: 12px;
+  padding: 2px;
+}
+.product-label label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+.produc-search {
+  border-right: solid 1px brown;
+  padding-right: 20px;
+}
+.product-input .input-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  width: 100px;
+  border: solid 1px green;
+  border-radius: 3px;
+}
+.btn {
+  border: solid 1px brown;
+  border-radius: 5px;
+  padding: 2px 8px;
+  background-color: #8f6ed7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: brown;
+}
+
+.produc-list {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+  align-self: stretch;
+  margin-left: 30px;
+}
+.produc-list ul{
+  box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+}
+.img-size {
+  width: 200px;
+  border-radius: 5px;
+}
+.produc-list {
+  display: flex;
+  align-content: flex-end;
+  
+}
+.price-value{
+font-size: 9px;
+
+}
+.input-price{
+  width: 90px;
+}
+.price-range-value{
+  display: flex;
+}
+.price-range-value p{
+color: brown;
+
+}
